@@ -1,0 +1,68 @@
+`timescale 1ns/100ps
+
+module TOP_tb();
+
+
+reg  [3:0] ina, inb, inc,ind;
+wire [3:0] out;
+reg        clk, D, J, transmit, ia, ib, ic, id,sent, recieved,
+wire [1:0] bit, word;
+wire mux;
+
+initial
+begin
+		//sinal de entrada
+		ina = 4'b0101;
+		inb = 4'b1100;
+		inc = 4'b0000;
+		ind = 4'b1111;
+		
+		
+		//controle dos flip-flops
+		D = 1'b1;
+		J = 1'b1;
+		
+		
+		//clock e transmissão
+				
+		      clk         = 1'b0;
+		      transmit    = 1'b1;
+		      transmitt   = 1'b1;
+		#640  transmit    = 1'b0;		
+		#640  transmitt   = 1'b0;
+		
+		forever
+		
+				#40 clk = ~clk;
+				
+		
+
+end
+
+
+
+
+TOP serialtransmissor( 
+							 .clk(CLK), .clr_n, //clr eh para saber inicio do piso.
+							 
+			             .ldA(), .ldB(), .ldC(), .ldD(),//bit logico que habilita carga paralela
+							 
+			             .inA(ina), .inB(inb), .inC(inc), .inD(ind),//sinal de entrada reg							 
+							 
+			             .transmit(transmit),// sinal que inicializa transmissão - liga os cont
+			             .data(mux),//saída do multi
+							 
+			             .QbitRX(bit), .QwrdRX(word), //contagem de bit e de palavra 
+							 
+			             .sent_n(sent), .received_n(recieved),//sinais ativos em 0 
+							 
+			             .outA(out[0]), .outB(out[1]), .outC(out[2]), .outD(out[3])//registradores de saída					
+							);		
+
+
+
+						
+										
+
+
+endmodule

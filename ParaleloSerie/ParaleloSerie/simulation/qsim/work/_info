@@ -1,0 +1,184 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/DLP/Exemplos/ParaleloSerie/simulation/qsim
+vcnt4
+Z1 !s110 1641238012
+!i10b 1
+!s100 Pcl[JdjEoLGUa0l<_n1e90
+I9;TAGeh5h_RhR0F6FQLRJ2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1641238010
+Z3 8ParaleloSerie.vo
+Z4 FParaleloSerie.vo
+Z5 L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1641238012.000000
+Z8 !s107 ParaleloSerie.vo|
+Z9 !s90 -work|work|ParaleloSerie.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcnt4_vlg_vec_tst
+R1
+!i10b 1
+!s100 j=[0f5N_RkjH>1=bnKYag3
+IiC273VaD7[a2:C]?GbR2k1
+R2
+R0
+w1641238009
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+Z12 L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R10
+R11
+vPISOReg
+Z13 !s110 1641237571
+!i10b 1
+!s100 am6DF[a2c<S6HR<c_FBNX3
+IgWBNEUzG7W9bZdBh2428U3
+R2
+R0
+w1641237570
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z14 !s108 1641237571.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@p@i@s@o@reg
+vPISOReg_vlg_vec_tst
+R13
+!i10b 1
+!s100 I^Pm:>NDcVWRa[CAEji`i3
+IohT=I3PgBMWcJ3IXT9;;]2
+R2
+R0
+w1641237569
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R14
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@p@i@s@o@reg_vlg_vec_tst
+vTOP
+Z15 !s110 1641386185
+!i10b 1
+!s100 JXMR`9k3oTNfYaW6dfMiF2
+Ii@SZZOSU_kUZCiE1MdD7M2
+R2
+R0
+w1641386184
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1641386185.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@t@o@p
+vTOP_vlg_vec_tst
+R15
+!i10b 1
+!s100 YH2WbTflRJ@FHH`X5CMhL2
+Ib_X8@MBnaNYeiK>3=Ce9C1
+R2
+R0
+w1641386183
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R10
+R11
+n@t@o@p_vlg_vec_tst
+vTX
+!s110 1641239579
+!i10b 1
+!s100 UBDgIBE[LJ9VROLbPDO^`3
+I?X0`UFV0Mld;6hPV^YLBl1
+R2
+R0
+w1641239578
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1641239579.000000
+R8
+R9
+!i113 1
+R10
+R11
+n@t@x
+vTX_vlg_vec_tst
+!s110 1641239580
+!i10b 1
+!s100 Q<gl?6:Fo[Tkl[WRnXNW[0
+IQSS>SW6[4[<fbZI8cff]d3
+R2
+R0
+w1641239577
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R17
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R10
+R11
+n@t@x_vlg_vec_tst

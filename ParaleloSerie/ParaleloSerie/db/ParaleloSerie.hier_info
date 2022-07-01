@@ -1,0 +1,395 @@
+|TOP
+clk => clk.IN2
+clr_n => clr_n.IN2
+ldA => ldA.IN1
+ldB => ldB.IN1
+ldC => ldC.IN1
+ldD => ldD.IN1
+inA[0] => inA[0].IN1
+inA[1] => inA[1].IN1
+inA[2] => inA[2].IN1
+inA[3] => inA[3].IN1
+inB[0] => inB[0].IN1
+inB[1] => inB[1].IN1
+inB[2] => inB[2].IN1
+inB[3] => inB[3].IN1
+inC[0] => inC[0].IN1
+inC[1] => inC[1].IN1
+inC[2] => inC[2].IN1
+inC[3] => inC[3].IN1
+inD[0] => inD[0].IN1
+inD[1] => inD[1].IN1
+inD[2] => inD[2].IN1
+inD[3] => inD[3].IN1
+transmit => transmit.IN2
+data << data.DB_MAX_OUTPUT_PORT_TYPE
+QbitRX[0] << RX:RX.Qbit
+QbitRX[1] << RX:RX.Qbit
+QwrdRX[0] << RX:RX.Qwrd
+QwrdRX[1] << RX:RX.Qwrd
+sent_n << TX:TX.sent_n
+received_n << RX:RX.received_n
+outA[0] << RX:RX.A
+outA[1] << RX:RX.A
+outA[2] << RX:RX.A
+outA[3] << RX:RX.A
+outB[0] << RX:RX.B
+outB[1] << RX:RX.B
+outB[2] << RX:RX.B
+outB[3] << RX:RX.B
+outC[0] << RX:RX.C
+outC[1] << RX:RX.C
+outC[2] << RX:RX.C
+outC[3] << RX:RX.C
+outD[0] << RX:RX.D
+outD[1] << RX:RX.D
+outD[2] << RX:RX.D
+outD[3] << RX:RX.D
+
+
+|TOP|TX:TX
+clk => clk.IN7
+clr_n => clr_n.IN5
+ld_A => ld_A.IN1
+ld_B => ld_B.IN1
+ld_C => ld_C.IN1
+ld_D => ld_D.IN1
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+C[0] => C[0].IN1
+C[1] => C[1].IN1
+C[2] => C[2].IN1
+C[3] => C[3].IN1
+D[0] => D[0].IN1
+D[1] => D[1].IN1
+D[2] => D[2].IN1
+D[3] => D[3].IN1
+transmit => transmit.IN1
+transmit_data <= MUX4:MUX4.Z
+sent_n <= sent_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|PISOReg:PISO_A
+clk => PISO_Reg[0].CLK
+clk => PISO_Reg[1].CLK
+clk => PISO_Reg[2].CLK
+clk => PISO_Reg[3].CLK
+clr_n => PISO_Reg[0].ACLR
+clr_n => PISO_Reg[1].ACLR
+clr_n => PISO_Reg[2].ACLR
+clr_n => PISO_Reg[3].ACLR
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+data_in[0] => PISO_Reg.DATAB
+data_in[1] => PISO_Reg.DATAB
+data_in[2] => PISO_Reg.DATAB
+data_in[3] => PISO_Reg.DATAB
+data_out <= PISO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|PISOReg:PISO_B
+clk => PISO_Reg[0].CLK
+clk => PISO_Reg[1].CLK
+clk => PISO_Reg[2].CLK
+clk => PISO_Reg[3].CLK
+clr_n => PISO_Reg[0].ACLR
+clr_n => PISO_Reg[1].ACLR
+clr_n => PISO_Reg[2].ACLR
+clr_n => PISO_Reg[3].ACLR
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+data_in[0] => PISO_Reg.DATAB
+data_in[1] => PISO_Reg.DATAB
+data_in[2] => PISO_Reg.DATAB
+data_in[3] => PISO_Reg.DATAB
+data_out <= PISO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|PISOReg:PISO_C
+clk => PISO_Reg[0].CLK
+clk => PISO_Reg[1].CLK
+clk => PISO_Reg[2].CLK
+clk => PISO_Reg[3].CLK
+clr_n => PISO_Reg[0].ACLR
+clr_n => PISO_Reg[1].ACLR
+clr_n => PISO_Reg[2].ACLR
+clr_n => PISO_Reg[3].ACLR
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+data_in[0] => PISO_Reg.DATAB
+data_in[1] => PISO_Reg.DATAB
+data_in[2] => PISO_Reg.DATAB
+data_in[3] => PISO_Reg.DATAB
+data_out <= PISO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|PISOReg:PISO_D
+clk => PISO_Reg[0].CLK
+clk => PISO_Reg[1].CLK
+clk => PISO_Reg[2].CLK
+clk => PISO_Reg[3].CLK
+clr_n => PISO_Reg[0].ACLR
+clr_n => PISO_Reg[1].ACLR
+clr_n => PISO_Reg[2].ACLR
+clr_n => PISO_Reg[3].ACLR
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+load => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+sh_ena => PISO_Reg.OUTPUTSELECT
+data_in[0] => PISO_Reg.DATAB
+data_in[1] => PISO_Reg.DATAB
+data_in[2] => PISO_Reg.DATAB
+data_in[3] => PISO_Reg.DATAB
+data_out <= PISO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|MUX4:MUX4
+I0 => Mux0.IN0
+I1 => Mux0.IN1
+I2 => Mux0.IN2
+I3 => Mux0.IN3
+S0 => Mux0.IN4
+S1 => Mux0.IN5
+Z <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|D_FF:DFF1
+clk => q~reg0.CLK
+clr_n => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|cnt4:cnt_bit
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+EN => Q[0]~reg0.ENA
+EN => Q[1]~reg0.ENA
+clr_n => Q[0]~reg0.ACLR
+clr_n => Q[1]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+TC <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|cnt4:cnt_wrd
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+EN => Q[0]~reg0.ENA
+EN => Q[1]~reg0.ENA
+clr_n => Q[0]~reg0.ACLR
+clr_n => Q[1]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+TC <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|TX:TX|JK_FF:JKFF2
+clk => q~reg0.CLK
+j => Mux0.IN3
+k => Mux0.IN4
+clr_n => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX
+clk => clk.IN7
+clr_n => clr_n.IN5
+transmit => transmit.IN1
+data_RX => data_RX.IN1
+A[0] <= SIPOReg:SIPORegA.data_out
+A[1] <= SIPOReg:SIPORegA.data_out
+A[2] <= SIPOReg:SIPORegA.data_out
+A[3] <= SIPOReg:SIPORegA.data_out
+B[0] <= SIPOReg:SIPORegB.data_out
+B[1] <= SIPOReg:SIPORegB.data_out
+B[2] <= SIPOReg:SIPORegB.data_out
+B[3] <= SIPOReg:SIPORegB.data_out
+C[0] <= SIPOReg:SIPORegC.data_out
+C[1] <= SIPOReg:SIPORegC.data_out
+C[2] <= SIPOReg:SIPORegC.data_out
+C[3] <= SIPOReg:SIPORegC.data_out
+D[0] <= SIPOReg:SIPORegD.data_out
+D[1] <= SIPOReg:SIPORegD.data_out
+D[2] <= SIPOReg:SIPORegD.data_out
+D[3] <= SIPOReg:SIPORegD.data_out
+Qbit[0] <= cnt4:bit_cnt.Q
+Qbit[1] <= cnt4:bit_cnt.Q
+Qwrd[0] <= Qwrd[0].DB_MAX_OUTPUT_PORT_TYPE
+Qwrd[1] <= Qwrd[1].DB_MAX_OUTPUT_PORT_TYPE
+received_n <= received_n.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|DEMUX4:DEMUX4
+I => O.DATAB
+I => O.DATAB
+I => O.DATAB
+I => O.DATAB
+S0 => Decoder0.IN0
+S1 => Decoder0.IN1
+O[0] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|SIPOReg:SIPORegA
+clk => SIPO_Reg[0].CLK
+clk => SIPO_Reg[1].CLK
+clk => SIPO_Reg[2].CLK
+clk => SIPO_Reg[3].CLK
+clr_n => SIPO_Reg[0].ACLR
+clr_n => SIPO_Reg[1].ACLR
+clr_n => SIPO_Reg[2].ACLR
+clr_n => SIPO_Reg[3].ACLR
+ena => SIPO_Reg[0].ENA
+ena => SIPO_Reg[3].ENA
+ena => SIPO_Reg[2].ENA
+ena => SIPO_Reg[1].ENA
+data_in => SIPO_Reg[3].DATAIN
+data_out[0] <= SIPO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= SIPO_Reg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= SIPO_Reg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= SIPO_Reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|SIPOReg:SIPORegB
+clk => SIPO_Reg[0].CLK
+clk => SIPO_Reg[1].CLK
+clk => SIPO_Reg[2].CLK
+clk => SIPO_Reg[3].CLK
+clr_n => SIPO_Reg[0].ACLR
+clr_n => SIPO_Reg[1].ACLR
+clr_n => SIPO_Reg[2].ACLR
+clr_n => SIPO_Reg[3].ACLR
+ena => SIPO_Reg[0].ENA
+ena => SIPO_Reg[3].ENA
+ena => SIPO_Reg[2].ENA
+ena => SIPO_Reg[1].ENA
+data_in => SIPO_Reg[3].DATAIN
+data_out[0] <= SIPO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= SIPO_Reg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= SIPO_Reg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= SIPO_Reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|SIPOReg:SIPORegC
+clk => SIPO_Reg[0].CLK
+clk => SIPO_Reg[1].CLK
+clk => SIPO_Reg[2].CLK
+clk => SIPO_Reg[3].CLK
+clr_n => SIPO_Reg[0].ACLR
+clr_n => SIPO_Reg[1].ACLR
+clr_n => SIPO_Reg[2].ACLR
+clr_n => SIPO_Reg[3].ACLR
+ena => SIPO_Reg[0].ENA
+ena => SIPO_Reg[3].ENA
+ena => SIPO_Reg[2].ENA
+ena => SIPO_Reg[1].ENA
+data_in => SIPO_Reg[3].DATAIN
+data_out[0] <= SIPO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= SIPO_Reg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= SIPO_Reg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= SIPO_Reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|SIPOReg:SIPORegD
+clk => SIPO_Reg[0].CLK
+clk => SIPO_Reg[1].CLK
+clk => SIPO_Reg[2].CLK
+clk => SIPO_Reg[3].CLK
+clr_n => SIPO_Reg[0].ACLR
+clr_n => SIPO_Reg[1].ACLR
+clr_n => SIPO_Reg[2].ACLR
+clr_n => SIPO_Reg[3].ACLR
+ena => SIPO_Reg[0].ENA
+ena => SIPO_Reg[3].ENA
+ena => SIPO_Reg[2].ENA
+ena => SIPO_Reg[1].ENA
+data_in => SIPO_Reg[3].DATAIN
+data_out[0] <= SIPO_Reg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= SIPO_Reg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= SIPO_Reg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= SIPO_Reg[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|decoder4:decoder4
+A => Decoder0.IN0
+B => Decoder0.IN1
+EN => O.OUTPUTSELECT
+EN => O.OUTPUTSELECT
+EN => O.OUTPUTSELECT
+EN => O.OUTPUTSELECT
+O[0] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[1] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[2] <= O.DB_MAX_OUTPUT_PORT_TYPE
+O[3] <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|D_FF:DFF1
+clk => q~reg0.CLK
+clr_n => q~reg0.ACLR
+d => q~reg0.DATAIN
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|cnt4:bit_cnt
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+EN => Q[0]~reg0.ENA
+EN => Q[1]~reg0.ENA
+clr_n => Q[0]~reg0.ACLR
+clr_n => Q[1]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+TC <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|cnt4:bit_wrd
+clk => Q[0]~reg0.CLK
+clk => Q[1]~reg0.CLK
+EN => Q[0]~reg0.ENA
+EN => Q[1]~reg0.ENA
+clr_n => Q[0]~reg0.ACLR
+clr_n => Q[1]~reg0.ACLR
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+TC <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|TOP|RX:RX|JK_FF:JKFF1
+clk => q~reg0.CLK
+j => Mux0.IN3
+k => Mux0.IN4
+clr_n => q.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

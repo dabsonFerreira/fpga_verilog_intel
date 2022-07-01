@@ -1,0 +1,14 @@
+module D_FF (
+				  input clk, clr_n, d,
+				  output reg out 
+				  );
+
+always @ (posedge clk)
+begin
+	if(~clr_n)
+		q <= 1'b0;
+	else
+		q <= d;
+end				  
+				  
+endmodule 

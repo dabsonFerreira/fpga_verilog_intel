@@ -1,0 +1,284 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/simulation/modelsim
+vcnt4
+Z1 !s110 1641525190
+!i10b 1
+!s100 ioT9g^EeWjPMLWQbGV[4`2
+I4h=0T@5akkSL[Ak?AE`KB1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1641238923
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/cnt4.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/cnt4.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1641525190.000000
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/cnt4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/cnt4.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie
+Z7 tCvgOpt 0
+vD_FF
+Z8 !s110 1641525191
+!i10b 1
+!s100 RPEd6EJ0^?MDdHce>DPg;2
+Ie<8V<k?e`@fUWN0RNbTWh2
+R2
+R0
+w1641327867
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/D_FF.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/D_FF.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1641525191.000000
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/D_FF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/D_FF.v|
+!i113 1
+R5
+R6
+R7
+n@d_@f@f
+vdecoder4
+R8
+!i10b 1
+!s100 WWefXQ_MG=b[SINT`12E`1
+IDLmN>Z<ejm1Ue=LFdZ=YG2
+R2
+R0
+w1641248218
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/decoder4.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/decoder4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/decoder4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/decoder4.v|
+!i113 1
+R5
+R6
+R7
+vDEMUX4
+R8
+!i10b 1
+!s100 R?NY=S=T;chE]HXb^VGkV2
+I5j@<?f2=h;Q`hYYeFH67T2
+R2
+R0
+w1641248114
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/DEMUX4.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/DEMUX4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/DEMUX4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/DEMUX4.v|
+!i113 1
+R5
+R6
+R7
+n@d@e@m@u@x4
+vJK_FF
+R8
+!i10b 1
+!s100 Ujf3o?G0QeHF`OPbYgC051
+IEF7B48LX4;BgHLPYo6Uf:2
+R2
+R0
+w1641387015
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/JK_FF.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/JK_FF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/JK_FF.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/JK_FF.v|
+!i113 1
+R5
+R6
+R7
+n@j@k_@f@f
+vMUX4
+R1
+!i10b 1
+!s100 cYkG8?mI1]0i@<iz>c:V@3
+IB?7H1l0O1ZLNFRT[IaEJC1
+R2
+R0
+w1641238100
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/MUX4.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/MUX4.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/MUX4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/MUX4.v|
+!i113 1
+R5
+R6
+R7
+n@m@u@x4
+vPISOReg
+R1
+!i10b 1
+!s100 VSDFgAMVdcz[KGHUUW?DY2
+IBIF[H`OfUnUPV;P<8D3``1
+R2
+R0
+w1641237298
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/PISOReg.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/PISOReg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/PISOReg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/PISOReg.v|
+!i113 1
+R5
+R6
+R7
+n@p@i@s@o@reg
+vRX
+R8
+!i10b 1
+!s100 @KMT[ia7<>AeZQWahHRhX1
+IZ4@WgB?3m9Fi5lUNa@8V73
+R2
+R0
+w1641386488
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/RX.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/RX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/RX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/RX.v|
+!i113 1
+R5
+R6
+R7
+n@r@x
+vSIPOReg
+R8
+!i10b 1
+!s100 X[[gooi1IN6ffCLa^iB>l0
+IcfNQNF[_[OGH4R;CYf<6`3
+R2
+R0
+w1641248353
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/SIPOReg.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/SIPOReg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/SIPOReg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/SIPOReg.v|
+!i113 1
+R5
+R6
+R7
+n@s@i@p@o@reg
+vTOP
+R8
+!i10b 1
+!s100 1>?nEH>4SF8oZ@Y:YURY60
+Ijg`>UHDS?oS3PUm9m;ZHl2
+R2
+R0
+w1641523911
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v
+L0 1
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v|
+!i113 1
+R5
+R6
+R7
+n@t@o@p
+vTOP_tb
+R8
+!i10b 1
+!s100 Tg3oKOXgZlZ:fW@6a?FE@2
+Il?UH2SGKDoQkhQiLUkGzI1
+R2
+R0
+w1641525082
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v|
+!i113 1
+R5
+R6
+R7
+n@t@o@p_tb
+vTX
+R1
+!i10b 1
+!s100 00[ii8BMTkae9i;h2IALG2
+I6RcP;FYdCZ>:DSNd=_6[T3
+R2
+R0
+w1641386477
+8C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TX.v
+FC:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie|C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TX.v|
+!i113 1
+R5
+R6
+R7
+n@t@x

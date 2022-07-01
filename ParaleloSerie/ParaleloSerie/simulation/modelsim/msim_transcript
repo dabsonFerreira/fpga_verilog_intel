@@ -1,0 +1,166 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do ParaleloSerie_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/PISOReg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:10 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/PISOReg.v 
+# -- Compiling module PISOReg
+# 
+# Top level modules:
+# 	PISOReg
+# End time: 00:13:10 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/cnt4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:10 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/cnt4.v 
+# -- Compiling module cnt4
+# 
+# Top level modules:
+# 	cnt4
+# End time: 00:13:10 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/MUX4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:10 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/MUX4.v 
+# -- Compiling module MUX4
+# 
+# Top level modules:
+# 	MUX4
+# End time: 00:13:10 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TX.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:10 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TX.v 
+# -- Compiling module TX
+# 
+# Top level modules:
+# 	TX
+# End time: 00:13:10 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/SIPOReg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/SIPOReg.v 
+# -- Compiling module SIPOReg
+# 
+# Top level modules:
+# 	SIPOReg
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/DEMUX4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/DEMUX4.v 
+# -- Compiling module DEMUX4
+# 
+# Top level modules:
+# 	DEMUX4
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/decoder4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/decoder4.v 
+# -- Compiling module decoder4
+# 
+# Top level modules:
+# 	decoder4
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/RX.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/RX.v 
+# -- Compiling module RX
+# 
+# Top level modules:
+# 	RX
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v 
+# -- Compiling module TOP
+# 
+# Top level modules:
+# 	TOP
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/JK_FF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/JK_FF.v 
+# -- Compiling module JK_FF
+# 
+# Top level modules:
+# 	JK_FF
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/D_FF.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/D_FF.v 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie {C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:13:11 on Jan 07,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie" C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v 
+# -- Compiling module TOP_tb
+# 
+# Top level modules:
+# 	TOP_tb
+# End time: 00:13:11 on Jan 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  TOP_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" TOP_tb 
+# Start time: 00:13:12 on Jan 07,2022
+# Loading work.TOP_tb
+# Loading work.TOP
+# Loading work.TX
+# Loading work.PISOReg
+# Loading work.MUX4
+# Loading work.D_FF
+# Loading work.cnt4
+# Loading work.JK_FF
+# Loading work.RX
+# Loading work.DEMUX4
+# Loading work.SIPOReg
+# Loading work.decoder4
+# ** Warning: (vsim-3015) C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v(85): [PCDPC] - Port size (4) does not match connection size (1) for port 'outA'. The port definition is at: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/serialtransmissor File: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v
+# ** Warning: (vsim-3015) C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v(85): [PCDPC] - Port size (4) does not match connection size (1) for port 'outB'. The port definition is at: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/serialtransmissor File: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v
+# ** Warning: (vsim-3015) C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v(85): [PCDPC] - Port size (4) does not match connection size (1) for port 'outC'. The port definition is at: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/serialtransmissor File: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v
+# ** Warning: (vsim-3015) C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP_tb.v(85): [PCDPC] - Port size (4) does not match connection size (1) for port 'outD'. The port definition is at: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /TOP_tb/serialtransmissor File: C:/Users/ferre/Downloads/ParaleloSerie/ParaleloSerie/TOP.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 3 ms
+# End time: 00:28:02 on Jan 07,2022, Elapsed time: 0:14:50
+# Errors: 0, Warnings: 4

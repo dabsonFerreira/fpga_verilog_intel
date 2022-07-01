@@ -1,0 +1,193 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "data",
+					"strict" : false
+				},
+				{
+					"name" : "QbitRX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "QbitRX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "QwrdRX[0]",
+					"strict" : false
+				},
+				{
+					"name" : "QwrdRX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sent_n",
+					"strict" : false
+				},
+				{
+					"name" : "received_n",
+					"strict" : false
+				},
+				{
+					"name" : "outA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outD[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ldA",
+					"strict" : false
+				},
+				{
+					"name" : "inA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clr_n",
+					"strict" : false
+				},
+				{
+					"name" : "ldB",
+					"strict" : false
+				},
+				{
+					"name" : "inB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ldC",
+					"strict" : false
+				},
+				{
+					"name" : "inC[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ldD",
+					"strict" : false
+				},
+				{
+					"name" : "inD[0]",
+					"strict" : false
+				},
+				{
+					"name" : "inA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "transmit",
+					"strict" : false
+				},
+				{
+					"name" : "inB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inD[1]",
+					"strict" : false
+				},
+				{
+					"name" : "inA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inD[2]",
+					"strict" : false
+				},
+				{
+					"name" : "inA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "inD[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

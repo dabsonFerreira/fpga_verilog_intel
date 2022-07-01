@@ -1,0 +1,117 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/altera_lite/16.0
+Ppkg_array
+w1645623475
+Z0 dC:/Users/ferre/Desktop/vending_machine/vending_machine
+8C:/Users/ferre/Desktop/vending_machine/vending_machine/vending_machine_top_level_tb.vhd
+FC:/Users/ferre/Desktop/vending_machine/vending_machine/vending_machine_top_level_tb.vhd
+l0
+L1
+VHT9mKM]lGnQJZhgmiI26^3
+!s100 BSAU::Pz872TM[TS2]^f?3
+Z1 OV;C;10.4d;61
+32
+!s110 1645625697
+!i10b 1
+!s108 1645625697.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ferre/Desktop/vending_machine/vending_machine/vending_machine_top_level_tb.vhd|
+!s107 C:/Users/ferre/Desktop/vending_machine/vending_machine/vending_machine_top_level_tb.vhd|
+!i113 1
+Z2 o-work work -2002 -explicit
+Z3 tExplicit 1
+Erom_precos
+Z4 w1645623479
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z7 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z10 8C:/Users/ferre/Desktop/vending_machine/vending_machine/ROM.vhd
+Z11 FC:/Users/ferre/Desktop/vending_machine/vending_machine/ROM.vhd
+l0
+L6
+V1XTSAg?L3X:Y2I=LMX]Q^2
+!s100 g26MWQIF`@eZk<5`F0Q=k1
+R1
+32
+Z12 !s110 1645625696
+!i10b 1
+Z13 !s108 1645625696.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ferre/Desktop/vending_machine/vending_machine/ROM.vhd|
+Z15 !s107 C:/Users/ferre/Desktop/vending_machine/vending_machine/ROM.vhd|
+!i113 1
+R2
+R3
+Arom_arq
+R5
+R6
+R7
+R8
+R9
+DEx4 work 10 rom_precos 0 22 1XTSAg?L3X:Y2I=LMX]Q^2
+l25
+L16
+VJCMQKC[cRgm`_LnBDUaC`3
+!s100 eZ=AWPhA;W[4P>4gTjXjP0
+R1
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R2
+R3
+Etroco
+Z16 w1645623478
+R7
+R8
+R9
+Z17 DPx4 work 9 pkg_array 0 22 1B6L>M0`2jX9z1O0S]ozG0
+R0
+Z18 8C:/Users/ferre/Desktop/vending_machine/vending_machine/troco.vhd
+Z19 FC:/Users/ferre/Desktop/vending_machine/vending_machine/troco.vhd
+l0
+L13
+V=UIOG]HNm1?4F7NSQ]lRz3
+!s100 XC4]@zPJc_3hdJ`QNhW0l0
+R1
+32
+R12
+!i10b 1
+R13
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/ferre/Desktop/vending_machine/vending_machine/troco.vhd|
+Z21 !s107 C:/Users/ferre/Desktop/vending_machine/vending_machine/troco.vhd|
+!i113 1
+R2
+R3
+Aarq
+R7
+R8
+R9
+R17
+DEx4 work 5 troco 0 22 =UIOG]HNm1?4F7NSQ]lRz3
+l40
+L28
+V8fBA0mbolfgDBP4fDK1>n0
+!s100 F@NmaZ4e_jdLk`0Cl^3DY0
+R1
+32
+R12
+!i10b 1
+R13
+R20
+R21
+!i113 1
+R2
+R3

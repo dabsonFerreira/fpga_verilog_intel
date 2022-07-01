@@ -1,0 +1,101 @@
+module semaforo(
+					input rst, clk,
+					input [1:0] corInicial_Carros_av1,// 00 vermelho com c2 verde    //10 amarelho  
+																//  01 vermelho com c2 amarelo  //11 verde
+					output reg out
+								
+					);
+
+reg a_verde, a_amarelo, a_vermelho;	// valor 0 ou 1. é 1 se terminou a respectiva contagem
+					
+					
+reg [5:0]verde; reg [4:0] vermelho; reg [3:0] amarelo;// contadores
+				
+reg [3:0] state; // corresponde ao estado de todos os semáforos num dado instante
+
+//======//=======// aki estão as luzes que recebem a entrada
+
+reg [1:0] c1, c2; 
+reg p1, p2; // só tem 2 posições => 1 verde 0 vermelho
+
+parameter s0 = 2'd0 , s1 = 2'd1, s2 = 2'd2, s3 = 2'd3;
+
+// transição dos estados - depende de clok
+
+always @ (posedge clk or posedge rst)
+begin
+	
+	if (rst)
+	begin
+	
+		state <= s0;
+		c1 = 2'd0; c2 = c1; p1 = c1; p2 = c1;
+	
+	end
+		
+	else 
+		case (state)
+		
+		 s0:
+		 
+			c1 = 2'b11;
+			p1 = 1'b0;
+			
+			c2 = 2'b00;
+			p2 = 1'b1;
+			
+			verde = 'd0; + 'd1;
+			
+			if (a_verde)
+				state <= s1;
+			else
+				state <= s0;
+			
+		 s1:
+			
+			if (a_amarelo)
+				state <= s2;
+			else
+				state <= s1;
+		 
+		 
+		 s2:
+			
+			if (a_verde)
+				state <= s1;
+			else
+				state > s3;
+		 
+		 
+		 
+		 s3:
+		 
+			if (a_vermelho)
+				state <= s0;
+			else
+				state > s4;
+		 
+		 
+		 
+		 
+		
+
+end
+
+
+// decodificação das saídas - combinacional
+always @ (state)
+begin
+
+	case (state)
+	
+	s0: out = a_verde; 
+	s1: out = a_amarelo;
+	s2: out = a_verde;
+	s3: out = a_vermelho;
+	
+	
+	endcase
+
+end
+endmodule 

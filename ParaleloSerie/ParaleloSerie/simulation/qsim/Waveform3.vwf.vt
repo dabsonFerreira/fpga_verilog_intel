@@ -1,0 +1,218 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "01/05/2022 09:36:23"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          TOP
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module TOP_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg clr_n;
+reg [3:0] inA;
+reg [3:0] inB;
+reg [3:0] inC;
+reg [3:0] inD;
+reg ldA;
+reg ldB;
+reg ldC;
+reg ldD;
+reg transmit;
+// wires                                               
+wire [1:0] QbitRX;
+wire [1:0] QwrdRX;
+wire data;
+wire [3:0] outA;
+wire [3:0] outB;
+wire [3:0] outC;
+wire [3:0] outD;
+wire received_n;
+wire sent_n;
+
+// assign statements (if any)                          
+TOP i1 (
+// port map - connection between master ports and signals/registers   
+	.QbitRX(QbitRX),
+	.QwrdRX(QwrdRX),
+	.clk(clk),
+	.clr_n(clr_n),
+	.data(data),
+	.inA(inA),
+	.inB(inB),
+	.inC(inC),
+	.inD(inD),
+	.ldA(ldA),
+	.ldB(ldB),
+	.ldC(ldC),
+	.ldD(ldD),
+	.outA(outA),
+	.outB(outB),
+	.outC(outC),
+	.outD(outD),
+	.received_n(received_n),
+	.sent_n(sent_n),
+	.transmit(transmit)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #10000 1'b1;
+	#10000;
+end 
+
+// clr_n
+initial
+begin
+	clr_n = 1'b0;
+	clr_n = #70000 1'b1;
+end 
+// inA[ 3 ]
+initial
+begin
+	inA[3] = 1'b0;
+end 
+// inA[ 2 ]
+initial
+begin
+	inA[2] = 1'b1;
+end 
+// inA[ 1 ]
+initial
+begin
+	inA[1] = 1'b1;
+end 
+// inA[ 0 ]
+initial
+begin
+	inA[0] = 1'b0;
+end 
+// inB[ 3 ]
+initial
+begin
+	inB[3] = 1'b1;
+end 
+// inB[ 2 ]
+initial
+begin
+	inB[2] = 1'b1;
+end 
+// inB[ 1 ]
+initial
+begin
+	inB[1] = 1'b0;
+end 
+// inB[ 0 ]
+initial
+begin
+	inB[0] = 1'b0;
+end 
+// inC[ 3 ]
+initial
+begin
+	inC[3] = 1'b1;
+end 
+// inC[ 2 ]
+initial
+begin
+	inC[2] = 1'b1;
+end 
+// inC[ 1 ]
+initial
+begin
+	inC[1] = 1'b0;
+end 
+// inC[ 0 ]
+initial
+begin
+	inC[0] = 1'b1;
+end 
+// inD[ 3 ]
+initial
+begin
+	inD[3] = 1'b0;
+end 
+// inD[ 2 ]
+initial
+begin
+	inD[2] = 1'b0;
+end 
+// inD[ 1 ]
+initial
+begin
+	inD[1] = 1'b1;
+end 
+// inD[ 0 ]
+initial
+begin
+	inD[0] = 1'b0;
+end 
+
+// ldA
+initial
+begin
+	ldA = 1'b0;
+	ldA = #100000 1'b1;
+	ldA = #20000 1'b0;
+end 
+
+// ldB
+initial
+begin
+	ldB = 1'b0;
+	ldB = #120000 1'b1;
+	ldB = #20000 1'b0;
+end 
+
+// ldC
+initial
+begin
+	ldC = 1'b0;
+	ldC = #140000 1'b1;
+	ldC = #20000 1'b0;
+end 
+
+// ldD
+initial
+begin
+	ldD = 1'b0;
+	ldD = #160000 1'b1;
+	ldD = #20000 1'b0;
+end 
+
+// transmit
+initial
+begin
+	transmit = 1'b0;
+	transmit = #200000 1'b1;
+	transmit = #20000 1'b0;
+end 
+endmodule
+

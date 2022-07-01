@@ -1,0 +1,40 @@
+`timescale 1ns/100ps
+module FSM_tb();
+
+
+reg clk, rst;
+reg [1:0] in;
+
+initial
+fork
+	rst = 1'd1;
+	clk = 1'd0;
+	
+	50# rst = 0'd0;
+	
+	forever
+		#10 clk = ~clk;
+		
+	#90      in = 2'b11;
+	#500     in = 2'b10;
+	
+	#1000    in = 2'b00;
+	#1500    in = 2'b01;
+	
+join
+
+module semaforo(
+					.rst(), 
+					.clk(),
+					input [1:0] corInicial_Carros_av1,// 00 vermelho com c2 verde    //10 amarelho  
+																//  01 vermelho com c2 amarelo  //11 verde
+					output reg [1:0] out,
+					
+					//======//=======// aki estão as luzes que recebem a entrada
+
+					output reg [1:0] c1, c2,
+					output reg p1, p2 // só tem 2 posições => 1 verde 0 vermelho
+								
+					);
+
+endmodule

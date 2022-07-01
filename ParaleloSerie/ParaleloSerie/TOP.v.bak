@@ -1,0 +1,45 @@
+module TOP (
+           input clk, clr_n, 
+			  input ldA, ldB, ldC, ldD,
+			  input [3:0] inA, inB, inC, inD,
+			  input transmit,
+			  output data,
+			  output [1:0] QbitTX, QbitRX, QwrdTX, QwrdRX,
+			  output sent_n, received_n,
+			  output [3:0]outA, outB, outC, outD
+			  );
+
+
+TX TX (
+      .clk(clk), 
+		.clr_n(clr_n),
+		.ldA(ldA), 
+		.ldB(ldB), 
+		.ldC(ldC), 
+		.ldD(ldD),
+		.A(inA),
+		.B(inB),
+		.C(inC),
+		.D(inD),
+		.transmit(transmit),
+		.data_TX(data),
+		.Qbit(QbitTX), 
+		.Qwrd(QwrdTX),
+		.sent_n(sent_n)
+      );
+
+RX RX (
+      .clk(clk), 
+		.clr_n(clr_n),
+		.transmit(transmit),
+		.data_RX(data),
+		.A(outA), 
+		.B(outB), 
+		.C(outC), 
+		.D(outD),
+		.Qbit(QbitRX), 
+		.Qwrd(QwrdRX),
+		.received_n(received_n) 
+      );
+
+endmodule 
